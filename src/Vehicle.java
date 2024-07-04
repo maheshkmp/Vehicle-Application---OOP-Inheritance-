@@ -12,13 +12,13 @@ public class Vehicle {
 
     public void Steer(int direction) {
         this.currentDirection += direction;
-        System.out.println("Steering methode called: Steering at" +currentDirection+ "digrees.");
+        System.out.println("Steering methode called: Steering at " +currentDirection+ " digrees.");
     }
 
     public void move(int speed, int direction){
         currentSpeed = speed;
         currentDirection = direction;
-        System.out.println("move method called: Moved at "+currentSpeed+ "in direction "+currentDirection);
+        System.out.println("move method called: Moved at "+currentSpeed+ " in direction "+currentDirection);
     }
 
 
@@ -48,5 +48,6 @@ public class Vehicle {
 
     public void stop(){
         this.currentSpeed = 0;
+        System.out.println("Vehicle is stopped");
     }
 }
