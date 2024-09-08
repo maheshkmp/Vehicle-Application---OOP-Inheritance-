@@ -21,7 +21,6 @@ public class Vehicle {
         System.out.println("move method called: Moved at "+currentSpeed+ " in direction "+currentDirection);
     }
 
-
     public String getName() {
         return name;
     }
