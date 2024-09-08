@@ -35,6 +35,7 @@ public class SUV extends Car {
             changeGear(6);
         }
 
+        
         if (newSpeed > 0) {
             changeSpeed(newSpeed, getCurrentDirection());
         }
